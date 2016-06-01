@@ -4,4 +4,6 @@ export function es5() {
 }
 
 export function es6() {
+  import * as module from '../utils'
+    return module.uuid()
 }
